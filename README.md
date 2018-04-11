@@ -28,6 +28,13 @@ En este modulo se encuentra la impelemnetacion de la instrumentacion de todos lo
 ## Salidas:
   Se implementaros 3 salidas del sistema:
   
-  -**Salida  PWM**: Se encarga de regular la intensidad de la luz en la habitación 
+  -**Salida  PWM**: Se encarga de regular la intensidad de la luz en la habitación. 
   
-  -**Salida Digital**: Son el riego y el aire acondicionado, las mismas activan dos Relés Asociados a cada una de estas 
+  -**Salida Digital**: Son el riego y el aire acondicionado, las mismas activan dos Relés Asociados a cada una de estas.
+ 
+ ## Circuitos de adquisición:
+  Los siguientes circuitos fueron los implantados para adquirir las señales analógicas provenientes de los sensores. 
+  
+  -**LDR**:
+   ![Circuito de acondicionamiento del LDR](https://github.com/Automatizacion-enfoquEcologico/Hardware/blob/master/circuito%20de%20acondicionamiento%20LDR.JPG)
+
