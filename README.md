@@ -9,7 +9,8 @@ En este modulo se encuentra la impelemnetacion de la instrumentacion de todos lo
 - [Datasheet](#datasheet) 
 
 ## Sensores: 
-  1. **Analógicos:**
+  1. **Analógicos**:
+  
      - **Sensores de Temperatura LM35**: Se implementaron dos sensores de temperatura, uno se encarga de medir la temperatura  interna del hogar, y el otro la externa. Con estas variables el usuario podrá decidir la temperatura interna de su hogar.            
 
    - **Sensor de corriente**: Este sensor le permitirá al usuario monitorear el consumo eléctrico de su hogar ayudando a que el mismo se pueda optimizar. 
