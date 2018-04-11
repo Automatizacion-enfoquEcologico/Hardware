@@ -44,5 +44,14 @@ En este modulo se encuentra la impelemnetacion de la instrumentacion de todos lo
   **Temperatura**:
   
    ![Circuito de acondicionamiento del sensor de temperatura](https://github.com/Automatizacion-enfoquEcologico/Hardware/blob/master/circuito%20de%20acondicionamiento%20LM35.JPG)
-   
+
+## Datasheet:
+  Datasheet de los sensores implementados:
   
+  -[LM35](http://www.ti.com/lit/ds/symlink/lm35.pdf)
+  -[LDR](http://kennarar.vma.is/thor/v2011/vgr402/ldr.pdf)
+  -[Corriente]()
+  -[Caudal](http://www.elco-holding.com/Upload/pdf/product/ProcessSensors/FS/FS400.pdf)
+  -[REED](https://standexelectronics.com/wp-content/uploads/OKI_Reed_Switch_ORD213.pdf)
+  -[PIR](https://cdn-learn.adafruit.com/downloads/pdf/pir-passive-infrared-proximity-motion-sensor.pdf)
+
