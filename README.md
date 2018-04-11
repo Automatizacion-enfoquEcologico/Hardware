@@ -35,11 +35,11 @@ En este modulo se encuentra la impelemnetacion de la instrumentacion de todos lo
  ## Circuitos de adquisición:
   Los siguientes circuitos fueron los implantados para adquirir las señales analógicas provenientes de los sensores. 
   
-  -**LDR**:
+  **LDR**:
    ![Circuito de acondicionamiento del LDR](https://github.com/Automatizacion-enfoquEcologico/Hardware/blob/master/circuito%20de%20acondicionamiento%20LDR.JPG)
-  -**Corriente**:
+  **Corriente**:
   ![Circuito de acondicionamiento del sensor de corriente](https://github.com/Automatizacion-enfoquEcologico/Hardware/blob/master/circuito%20de%20acondicionamiento%20Sensore%20de%20Corriente.JPG)
-  -**Temperatura**:
+  **Temperatura**:
    ![Circuito de acondicionamiento del sensor de temperatura](https://github.com/Automatizacion-enfoquEcologico/Hardware/blob/master/circuito%20de%20acondicionamiento%20LM35.JPG)
    
   
