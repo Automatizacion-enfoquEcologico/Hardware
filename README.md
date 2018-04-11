@@ -2,6 +2,42 @@
 
 En este modulo se encuentra la impelemnetacion de la instrumentacion de todos los circuitos utilizados durante el proyecto.
 
-Para poder acondicionar las señales AC para que puedan ser adquiridas por el microprocesador se implemento el siguienete circuito de  instruentacion.
+## Implementación 
+- [Sensores](#sensores) 
+- [Salidas](#salidas)
+- [Circuitos de adquisición](#circuitos-de-adquisición) 
+- [Datasheet](#datasheet) 
 
-![](https://github.com/Automatizacion-enfoquEcologico/Hardware/blob/master/circuito%20deacondicionameinto%20de%20sea%C3%B1aes%20analogicas.JPG)
+## Sensores: 
+  1.**Analógicos:**
+    - **Sensor de Temperatura LM35:**  Se implementaron dos sensores de temperatura, uno se encarga de medir la temperatura  interna del hogar, y el otro la externa. Con estas variables el usuario podrá decidir la temperatura interna de su hogar.
+
+    -**Sensor de corriente:** Este sensor le permitirá al usuario monitorear el consumo eléctrico de su hogar ayudando a que el mismo se pueda optimizar.
+
+    - **Sensor de luz (LDR):** Permite saber cuánta luz del sol están recibiendo las plantas, y así en conjunto con la información proporcionada por el higrómetro (Sensor de Humedad), el sistema de manera automática podrá decidir cuándo regar las plantas.     
+
+    - **Sensor de Caudal (Simulado):** Permite medir la cantidad de agua que fluye por las tuberías del hogar. Este sensor mediante un encoder, debido a  que el laboratorio C no cuenta con uno y el mismo es demasiado costoso para su adquisición. 
+
+Digitales 
+Sensor de humedad (Higrómetro): Permite medir la cantidad de humedad en el suelo, esta información la utilizara el sistema para decidir cuándo regar las plantas.
+Sensor de Movimiento (PIR): Permite saber cuándo hay o no movimiento en una habitación, de esta forma el sistema sabrá cuando apagar de manera automática el aire acondicionado y las luces.  
+Sensor magnético (Apertura de puertas): Permite al sistema saber cuándo la puerta de la habitación se encuentra abierta para de esta manera avisar al usuario, si el aire acondicionado en esta habitación se encuentra encendido 
+
+Salidas 
+Se implementaros 3 salidas del sistema:
+Salida  PWM: Se encarga de regular la intensidad de la luz en la habitación 
+Salida Digital: Son el riego y el aire acondicionado, las mismas activan dos Relés Asociados a cada una de estas 
+
+Sensor de corriente  
+Sensor de luz (LDR)
+Sensor de Caudal (Simulado)
+
+Digitales 
+Higrómetro
+Sensor de Movimiento (PIR)
+Sensor magnético (Apertura de puertas) 
+
+Salidas 
+Se implementaros 3 salidas del sistema:
+Salida  PWM: Se encarga de regular el porcentaje de luz 
+Salida Digital: Son el riego y el aire acondicionado, las mismas activan dos Relés Asociados a cada una de estas
